@@ -1,0 +1,6 @@
+
+]squid:S1481")Remove this unused "conn" local variable.(û‚È‡8šØðÕ‘0HƒRMINORZ
+CODE_SMELL
+wsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(û‚È‡8šØðÕ‘0H„RBLOCKERZBUG
+lsquid:S1854"8Remove this useless assignment to local variable "conn".(û‚È‡8šØðÕ‘0H…RMAJORZ
+CODE_SMELL
