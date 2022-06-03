@@ -1,14 +1,14 @@
 
-osquid:S2095&"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ì¸ÈïHÚRBLOCKERZBUG
-|squid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëª´õüÿÿÿÿHÛRBLOCKERZBUG
-osquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(İÉHÜRBLOCKERZBUG
-psquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(û‚È‡HİRBLOCKERZBUG
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾í•îøÿÿÿÿHŞRMAJORZ
+|squid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëª´õüÿÿÿÿHÌRBLOCKERZBUG
+}squid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(íşÕíûÿÿÿÿHĞRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(íşÕíûÿÿÿÿHßRMAJORZ
+dsquid:S1854."7Remove this useless assignment to local variable "sql".(ÿ¶ÜïHËRMAJORZ
 CODE_SMELL
+osquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(İÉHÏRBLOCKERZBUG
 e
-squid:S106+"9Replace this use of System.out or System.err by a logger.(Ü¿ù«HàRMAJORZ
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Ü¿ù«HÊRMAJORZ
 CODE_SMELL
-dsquid:S1854."7Remove this useless assignment to local variable "sql".(ÿ¶ÜïHáRMAJORZ
+psquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(û‚È‡HÉRBLOCKERZBUG
+osquid:S2095&"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ì¸ÈïHÍRBLOCKERZBUG
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾í•îøÿÿÿÿHÎRMAJORZ
 CODE_SMELL

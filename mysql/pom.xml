@@ -22,12 +22,14 @@
 
 	<dependencies>
 
-		<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
-		<dependency>
-			<groupId>org.xerial</groupId>
-			<artifactId>sqlite-jdbc</artifactId>
-			<version>3.36.0.3</version>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc10 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc10</artifactId>
+    <version>19.14.0.0</version>
+    <scope>system</scope>
+    <systemPath>C:\dev\workspace-formation\advanced-java\mysql\ojdbc10.jar</systemPath>
+</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
