@@ -13,10 +13,9 @@ public class UserDaoImpl implements UserDao {
 		var conn = DataBase.instance().getConnection();
 
 		try {
-			var stmt = conn.prepareStatement("insert into USERTEST (id, name) values (?, ?)");
+			var stmt = conn.prepareStatement("insert into USERTEST (name) values (?)");
 
-			stmt.setInt(1, u.getId());
-			stmt.setString(2, u.getName());
+			stmt.setString(1, u.getName());
 			stmt.executeUpdate();
 
 			stmt.close();

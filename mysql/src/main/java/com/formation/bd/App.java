@@ -22,8 +22,10 @@ public class App {
 		System.out.println("Connected");
 
 		UserDao userDao = new UserDaoImpl();
-		//userDao.save(new User(1, "Mars"));
-		//userDao.save(new User(3, "Pluto"));
+		//userDao.save(new User("Mars"));
+		//userDao.save(new User("Pluto"));
+		//userDao.save(new User("Soleil"));
+		userDao.save(new User("Saturne"));
 
 		var users = userDao.getAll();
 
@@ -42,7 +44,7 @@ public class App {
 			System.out.println("No user retreived");
 		}
 
-		userDao.delete(new User(5, null));
+		userDao.delete(new User(4, null));
 
 		try {
 			db.close();
