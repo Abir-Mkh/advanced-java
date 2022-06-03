@@ -15,7 +15,7 @@ public class Profile {
 
 		String propertiesFile = String.format("/config/%s.%s.properties",name , env) ;
 
-		System.out.println(propertiesFile);
+
 
 		try {
 			props.load(App.class.getResourceAsStream(propertiesFile));

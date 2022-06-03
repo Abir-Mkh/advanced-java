@@ -25,7 +25,7 @@ public class App {
 		//userDao.save(new User("Mars"));
 		//userDao.save(new User("Pluto"));
 		//userDao.save(new User("Soleil"));
-		userDao.save(new User("Saturne"));
+		//userDao.save(new User("Saturne"));
 
 		var users = userDao.getAll();
 
@@ -44,7 +44,7 @@ public class App {
 			System.out.println("No user retreived");
 		}
 
-		userDao.delete(new User(4, null));
+		userDao.delete(new User(13, null));
 
 		try {
 			db.close();
