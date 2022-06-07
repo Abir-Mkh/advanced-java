@@ -1,5 +1,5 @@
 
-msquid:S1068"4Remove this unused "serailVersionUID" private field.(½žàØÿÿÿÿÿ8ìžÇ¢’0HÑRMAJORZ
+—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½žàØÿÿÿÿÿ8ìžÇ¢’0HõRCRITICALZ
 CODE_SMELL
-—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½žàØÿÿÿÿÿ8ìžÇ¢’0HÒRCRITICALZ
+msquid:S1068"4Remove this unused "serailVersionUID" private field.(½žàØÿÿÿÿÿ8ìžÇ¢’0HöRMAJORZ
 CODE_SMELL

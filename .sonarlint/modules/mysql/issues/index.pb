@@ -15,3 +15,19 @@ W
 'src/main/java/com/formation/bd/App.java,a\7\a78188dc22d3a212375daa08a2756fb4910e27c0
 _
 /src/main/java/com/formation/bd/UserDaoImpl.java,4\8\48fcb3f7e604c699350762a203ce05de11813280
+\
+,src/main/resources/config/db.prod.properties,b\0\b072dcd7ca4278bf636b9c28beec30a645ec55b7
+[
++src/test/java/com/formation/bd/AppTest.java,2\1\2150c8b9ec009ef8fdbf04a2ad40c5eb625051e0
+\
+,src/test/resources/config/db.test.properties,c\c\cc565ab9c443a3d41023bf5d34baec91705938e6
+9
+	people.db,1\3\1365abf90467317681e2161ff0677180763fa110
+7
+user.db,6\6\6694837854dc0082940977fdac7cc7b42412991e
+_
+/src/test/java/com/formation/bd/ProfileTest.java,c\8\c8188e2f338be222dd3a911c642685a0c6229f69
+[
++src/main/java/com/formation/bd/Profile.java,f\4\f48a16c16cc5ae2c2e760aaf84f8da00930ab9f3
+c
+3src/test/java/com/formation/bd/UserDaoImplTest.java,d\9\d980efeeaf9c73c918bdd63c7379b3efdda8e455

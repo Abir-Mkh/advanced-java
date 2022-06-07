@@ -1,9 +1,8 @@
 
-½squid:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(È«ò¡ùÿÿÿÿ8Òè£¢’0HêRCRITICALZ
-CODE_SMELL
-ƒsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¬ÇÊêüÿÿÿÿ8©úÎ¢’0HéRBLOCKERZBUG
-msquid:S2789"@Methods with an "Optional" return type should never return null.(¥¹ï8œä¢¢’0HèRMAJORZBUG
-½squid:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÓôÉæùÿÿÿÿ8Òè£¢’0HëRCRITICALZ
-CODE_SMELL
-_squid:S1168-"+Return an empty collection instead of null.(¥¹ï8œä¢¢’0HìRMAJORZ
-CODE_SMELL
+ƒsquid:S2095M"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ˆôêñùÿÿÿÿ8ï çÄ’0HRBLOCKERZBUG
+~squid:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(§µú“8‚ÏÄÄ’0HşRBLOCKERZBUG
+vsquid:S2095`"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(÷º“™8‰Ã¥Ä’0HøRBLOCKERZBUG
+ƒsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‰æèâüÿÿÿÿ8©úÎ¢’0HêRBLOCKERZBUG
+~squid:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(–¹¡È8§“íÆ’0H›RBLOCKERZBUG
+{squid:S2095$"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ıÊ·Íùÿÿÿÿ8‚ÏÄÄ’0HÿRBLOCKERZBUG
+vsquid:S2095^"GUse try-with-resources or close this "Statement" in a "finally" clause.(İÉ8ıÈ¢Ä’0HòRBLOCKERZBUG
