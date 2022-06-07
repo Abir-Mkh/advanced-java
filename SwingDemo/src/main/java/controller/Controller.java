@@ -1,4 +1,5 @@
 package controller;
+
 import gui.MainFrame;
 import gui.MainPanel;
 
@@ -9,6 +10,10 @@ public class Controller {
 	public Controller() {
 
 		mainPanel = new MainPanel();
+		mainPanel.setFormListner((username, password) -> {
+			System.out.println(username + ": " + password);
+		});
+
 		mainFrame = new MainFrame();
 
 		mainFrame.setContentPane(mainPanel);

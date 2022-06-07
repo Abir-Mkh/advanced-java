@@ -1,9 +1,11 @@
 package gui;
 
-import java.awt.Color;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.Insets;
 
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -11,18 +13,12 @@ import javax.swing.JTextField;
 
 public class MainPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
+	private UserFormListner formListner;
 
 	public MainPanel() {
-		setBackground(Color.PINK);
 
 		var formLabel = new JLabel("Add User");
-		var nameLabel = new JLabel("Name:");
-		var passLabel = new JLabel("Password:");
-
-		var nameField = new JTextField(15);
-		var passField = new JTextField(15);
-
-		var addButton = new JButton("Save");
+		formLabel.setFont(new Font("Serif", Font.PLAIN, 30));
 
 		setLayout(new GridBagLayout());
 
@@ -31,37 +27,88 @@ public class MainPanel extends JPanel {
 		gc.gridx = 0;
 		gc.gridy = 0;
 
-		gc.weightx = 1;
+		gc.weighty = 1;
 
-		gc.gridwidth = 2;
 		add(formLabel, gc);
 
+		gc.weighty = 1.5;
 		gc.gridy++;
-		gc.gridwidth = 1 ;
+		gc.anchor = GridBagConstraints.FIRST_LINE_START;
+
+		add(createFormPanel(), gc);
+	}
+
+	public void setFormListner(UserFormListner formListner) {
+		this.formListner = formListner;
+
+	}
+
+	private JPanel createFormPanel() {
+		JPanel panel = new JPanel();
+
+		var padding = 20;
+		var etchedBorder = BorderFactory.createEtchedBorder();
+		var emptyBorder = BorderFactory.createEmptyBorder(padding, padding, padding, padding);
+
+		panel.setBorder(BorderFactory.createCompoundBorder(etchedBorder, emptyBorder));
+
+		var nameLabel = new JLabel("Name:");
+		var passLabel = new JLabel("Password:");
+
+		var nameField = new JTextField(15);
+		var passField = new JTextField(15);
+
+		var addButton = new JButton("Save");
+		addButton.addActionListener(e -> {
+			String username = nameField.getText();
+			String password = passField.getText();
+			if (formListner != null) {
+				formListner.formSubmitted(username, password);
+			}
+		});
+
+		var gc = new GridBagConstraints();
+
+		panel.setLayout(new GridBagLayout());
+
+		var rightPad = new Insets(0, 0, 0, 10);
+		var zeroInsets = new Insets(0, 0, 0, 0);
+
+		gc.gridy++;
+		gc.gridwidth = 1;
+		gc.weighty = 0.1;
 
 		gc.gridx = 0;
 		gc.anchor = GridBagConstraints.LINE_END;
-		add(nameLabel, gc);
+		gc.insets = rightPad;
+		panel.add(nameLabel, gc);
 
 		gc.gridx = 1;
 		gc.anchor = GridBagConstraints.LINE_START;
-		add(nameField, gc);
+		gc.insets = zeroInsets;
+		panel.add(nameField, gc);
 
 		gc.gridy++;
+		gc.weighty = 0.1;
 
 		gc.gridx = 0;
 		gc.anchor = GridBagConstraints.LINE_END;
-		add(passLabel, gc);
+		gc.insets = rightPad;
+		panel.add(passLabel, gc);
 
 		gc.gridx = 1;
 		gc.anchor = GridBagConstraints.LINE_START;
-		add(passField, gc);
+		gc.insets = zeroInsets;
+		panel.add(passField, gc);
 
 		gc.gridy++;
+		gc.weighty = 30;
 		gc.gridx = 1;
+		gc.anchor = GridBagConstraints.FIRST_LINE_END;
 
-		add(addButton, gc);
+		panel.add(addButton, gc);
 
+		return panel;
 	}
 
 }
