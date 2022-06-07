@@ -31,6 +31,8 @@ public class MainPanel extends JPanel {
 		gc.gridx = 0;
 		gc.gridy = 0;
 
+		gc.weightx = 1;
+
 		gc.gridwidth = 2;
 		add(formLabel, gc);
 
@@ -38,17 +40,21 @@ public class MainPanel extends JPanel {
 		gc.gridwidth = 1 ;
 
 		gc.gridx = 0;
+		gc.anchor = GridBagConstraints.LINE_END;
 		add(nameLabel, gc);
 
 		gc.gridx = 1;
+		gc.anchor = GridBagConstraints.LINE_START;
 		add(nameField, gc);
 
 		gc.gridy++;
 
 		gc.gridx = 0;
+		gc.anchor = GridBagConstraints.LINE_END;
 		add(passLabel, gc);
 
 		gc.gridx = 1;
+		gc.anchor = GridBagConstraints.LINE_START;
 		add(passField, gc);
 
 		gc.gridy++;
