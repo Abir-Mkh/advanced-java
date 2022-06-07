@@ -1,12 +1,16 @@
 package com.formation.advancedjava;
 
+@Entity("user")
 public class User {
 
-	@Field(value="id", isKey=true)
+	@Field(columnName="id", isKey=true)
 	private Long id;
 
-	@Field()
+	@Field( )
 	private String name;
+
+	@Field
+	private String password;
 
 	private int sequence;
 
