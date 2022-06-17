@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\dev\ztoolbox\jdk1_8_oracle\jre" version="1.8.0_191">
+<bootpath>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\resources.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\rt.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\sunrsasign.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jsse.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jce.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\charsets.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jfr.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\dev\ztoolbox\jdk1_8_oracle" version="1.8.0_191">
+<bootpath>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\resources.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\rt.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\sunrsasign.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jsse.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jce.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\charsets.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\jfr.jar"/>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\dev\ztoolbox\jdk1_8_oracle\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

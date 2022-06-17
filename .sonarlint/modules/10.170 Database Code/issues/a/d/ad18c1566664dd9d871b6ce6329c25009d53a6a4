@@ -1,0 +1,5 @@
+
+squid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(‡ÙÌÓ8“Ú•”0H­RMAJORZ
+CODE_SMELL
+{squid:S2095&"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(â†ìÖüÿÿÿÿ8“Ú•”0H«RBLOCKERZBUG
+vsquid:S2095%"GUse try-with-resources or close this "Statement" in a "finally" clause.(ŽÝÉ8“Ú•”0H¬RBLOCKERZBUG

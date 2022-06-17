@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310685501_0" label="Java Main Sources" name="main">
+<item elementID="=EclipseIn28Minutes/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=corepatterns/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=iteratorpattern/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310685539_1" label="Java Test Sources" name="test"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EARWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710389_3" label="EAR Projects" name="EARWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.AppClientWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710454_4" label="Application Client Projects" name="AppClientWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EjbWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710477_5" label="EJB Projects" name="EjbWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.ConnectorWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710510_6" label="Connector Projects" name="ConnectorWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710531_7" label="Web Projects" name="NewWebWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.JPAWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710550_8" label="JPA Projects" name="JPAWorkingSet.name"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.UtilWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710569_9" label="Utility Projects" name="WS_UTIL"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebFragmentWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710586_10" label="Web Fragment Projects" name="WebFragmentWorkingSetPage.name"/>
+<workingSet editPageId="com.ibm.etools.project.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710607_11" label="Uncategorized Projects" name="OthersWorkingSet.name">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EclipseIn28Minutes" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/corepatterns" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/iteratorpattern" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310704167_2" label="Window Working Set" name="Aggregate for window 1653310704166"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653310710723_12" label="Multiple Working Sets" name="Aggregate:EARWorkingSetPage.name:AppClientWorkingSetPage.name:EjbWorkingSetPage.name:ConnectorWorkingSetPage.name:NewWebWorkingSetPage.name:JPAWorkingSet.name:WS_UTIL:WebFragmentWorkingSetPage.name:OthersWorkingSet.name:">
+<workingSet IMemento.internal.id="EARWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="AppClientWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="EjbWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="ConnectorWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="NewWebWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="JPAWorkingSet.name"/>
+<workingSet IMemento.internal.id="WS_UTIL"/>
+<workingSet IMemento.internal.id="WebFragmentWorkingSetPage.name"/>
+<workingSet IMemento.internal.id="OthersWorkingSet.name"/>
+</workingSet>
+</workingSetManager>

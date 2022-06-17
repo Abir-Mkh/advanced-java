@@ -1,0 +1,8 @@
+
+vsquid:S2095Y"GUse try-with-resources or close this "Statement" in a "finally" clause.(İÉ8«øì•”0H²RBLOCKERZBUG
+~squid:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(–¹¡È8«øì•”0H³RBLOCKERZBUG
+~squid:S2095!"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(§µú“8«øì•”0H®RBLOCKERZBUG
+{squid:S2095$"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ıÊ·Íùÿÿÿÿ8«øì•”0H°RBLOCKERZBUG
+ƒsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‰æèâüÿÿÿÿ8«øì•”0H±RBLOCKERZBUG
+ƒsquid:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ˆôêñùÿÿÿÿ8«øì•”0H¯RBLOCKERZBUG
+vsquid:S2095["GUse try-with-resources or close this "ResultSet" in a "finally" clause.(÷º“™8«øì•”0H´RBLOCKERZBUG

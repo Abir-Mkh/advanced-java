@@ -31,3 +31,5 @@ _
 +src/main/java/com/formation/bd/Profile.java,f\4\f48a16c16cc5ae2c2e760aaf84f8da00930ab9f3
 c
 3src/test/java/com/formation/bd/UserDaoImplTest.java,d\9\d980efeeaf9c73c918bdd63c7379b3efdda8e455
+[
++src/main/resources/config/db.dev.properties,6\d\6db68fd61320f49167917754783bfd757395ea33

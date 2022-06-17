@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=EclipseIn28Minutes/C:\/dev\/ztoolbox\/jdk1_8_oracle\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1542735452389"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.factory{Pizza.java[Pizza" modifiers="513" timestamp="1653400501876"/>
+<typeInfo handle="=corepatterns/C:\/dev\/ztoolbox\/jdk1_8_oracle\/jre\/lib\/rt.jar&lt;java.security.acl(Permission.class[Permission" modifiers="1537" timestamp="1542735452389"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.factory{Person.java[Person" modifiers="513" timestamp="1653402065667"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.abstractfactory{Dao.java[Dao" modifiers="513" timestamp="1653404020812"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.abstractfactory{DaoAbstractFactory.java[DaoAbstractFactory" modifiers="1025" timestamp="1653404490323"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.templatemethod{DataRenderer.java[DataRenderer" modifiers="1025" timestamp="1653406044266"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.templatemethod{ComputerManufacturer.java[ComputerManufacturer" modifiers="1025" timestamp="1653467329602"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.adapter{WeatherFinder.java[WeatherFinder" modifiers="513" timestamp="1653468713142"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.adapter{PaymentProcessor.java[PaymentProcessor" modifiers="513" timestamp="1653469649317"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.command{Command.java[Command" modifiers="513" timestamp="1653482722230"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.decorator{Pizza.java[Pizza" modifiers="513" timestamp="1653483805393"/>
+<typeInfo handle="=corepatterns/src&lt;com.formation.corepatterns.proxy{Customer.java[Customer" modifiers="513" timestamp="1653897987977"/>
+<typeInfo handle="=corepatterns/C:\/dev\/ztoolbox\/jdk1_8_oracle\/jre\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1542735452389"/>
+<typeInfo handle="=iteratorpattern/src&lt;com.formation.corepatterns.iterator{Collection.java[Collection" modifiers="513" timestamp="1653905997967"/>
+<typeInfo handle="=iteratorpattern/src&lt;com.formation.corepatterns.iterator{Iterator.java[Iterator" modifiers="513" timestamp="1653906435420"/>
+</typeInfoHistroy>

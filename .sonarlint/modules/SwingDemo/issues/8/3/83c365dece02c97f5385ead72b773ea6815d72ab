@@ -1,0 +1,9 @@
+
+tsquid:S2095&"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ıÊ·ÍùÿÿÿÿH‘RBLOCKERZBUG
+osquid:S2095a"GUse try-with-resources or close this "Statement" in a "finally" clause.(İÉHRBLOCKERZBUG
+squid:S2068>"U'password' detected in this expression, review this potentially hardcoded credential.(–ÎØ€8¥ñ š”0H•RBLOCKERZVULNERABILITY
+wsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾¥¹ÇHRBLOCKERZBUG
+wsquid:S2095>"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(–ÎØ€H’RBLOCKERZBUG
+|squid:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Óá‹ãşÿÿÿÿHRBLOCKERZBUG
+vsquid:S2095$"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å’ÊzHRBLOCKERZBUG
+osquid:S2095c"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(£¡åH“RBLOCKERZBUG

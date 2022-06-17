@@ -1,0 +1,5 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚š‰18À¸³0HÏRMAJORZ
+CODE_SMELL
+rsquid:S1226"@Introduce a new variable instead of reusing the parameter "msg".( çÎ¤øÿÿÿÿ8ìÃÌ³0HİRMINORZBUG

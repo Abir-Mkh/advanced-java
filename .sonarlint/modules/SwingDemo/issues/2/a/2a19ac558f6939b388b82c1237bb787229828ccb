@@ -1,0 +1,5 @@
+
+osquid:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(é›è…H¥RBLOCKERZBUG
+xsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(áŸÃ”H∂RMAJORZ
+CODE_SMELL
+tsquid:S2095'"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(‚ÜÏ÷¸ˇˇˇˇHµRBLOCKERZBUG

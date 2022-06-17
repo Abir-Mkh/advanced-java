@@ -9,18 +9,16 @@ public class Profile {
 
 		String env = System.getProperty("env");
 
-		if(env == null) {
+		if (env == null) {
 			env = "dev";
 		}
 
-		String propertiesFile = String.format("/config/%s.%s.properties",name , env) ;
-
-
+		String propertiesFile = String.format("/config/%s.%s.properties", name, env);
 
 		try {
 			props.load(App.class.getResourceAsStream(propertiesFile));
 		} catch (Exception e) {
-			System.out.println("Cannot load properties file" + propertiesFile);
+
 			throw new RuntimeException("Cannot load properties file: " + propertiesFile);
 		}
 		return props;

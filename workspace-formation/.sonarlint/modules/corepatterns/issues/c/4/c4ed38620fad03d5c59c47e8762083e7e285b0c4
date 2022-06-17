@@ -1,0 +1,9 @@
+
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ğêõ°0HˆRMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(õ¡üÈ8Ğêõ°0H‰RMAJORZ
+CODE_SMELL
+tsquid:S2259"GA "NullPointerException" could be thrown; "instance2" is nullable here.(õ¡üÈ8Ğêõ°0HŠRMAJORZBUG
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ô¡³Œûÿÿÿÿ8Ğêõ°0H‹RMAJORZ
+CODE_SMELL
